@@ -12,7 +12,7 @@ import {
 const StateContext = createContext();
 
 export const StateContextProvider = ({ children }) => {
-  const TOKEN_ICO = "TOKEN SALL DAPP";
+
 
   // State Variables
   const [address, setAddress] = useState("");
@@ -107,8 +107,8 @@ export const StateContextProvider = ({ children }) => {
       setTokenSale(tokenSale);
 
       console.log(tokenSale);
-      console.log(currentHolder);
-      console.log(nativeToken);
+      // console.log(currentHolder);
+      // console.log(nativeToken);
     } catch (error) {
       console.log(error);
     }
@@ -129,7 +129,6 @@ export const StateContextProvider = ({ children }) => {
       });
 
       await buying.wait();
-      console.log(buying + " this is buying log");
       window.location.reload();
     } catch (error) {
       console.log(error);
