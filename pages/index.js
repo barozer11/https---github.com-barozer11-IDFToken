@@ -19,7 +19,6 @@ const index = () => {
     buyToken,
     connectWallet,
     setAddress,
-    TOKEN_ICO,
     currentHolder,
     tokenSale,
     tokenHolders,

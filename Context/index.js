@@ -164,7 +164,6 @@ export const StateContextProvider = ({ children }) => {
         buyToken,
         connectWallet,
         setAddress,
-        TOKEN_ICO,
         currentHolder,
         tokenSale,
         tokenHolders,
