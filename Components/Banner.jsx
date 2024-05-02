@@ -21,10 +21,9 @@ const Banner = ({transferNativeToken}) => {
                       <h1 className="animation text-white"
                           data-animation="fadeInUp"
                           data-animation-delay="1.1s"><strong> Join</strong> us in supporting the brave men and women of the Israel Defense Force as
-                           they safeguard their nation's peace and security. 
-                           Every day, these courageous warriors stand firm against
-                            threats to ensure the safety of their fellow citizens and 
-                            uphold the values of <strong>freedom and democracy</strong></h1>
+                           they safeguard their nation's peace and security. Follow citizens and 
+                            uphold the values of 
+                          <strong> Freedom and Democracy</strong></h1>
                           <h5 className="animation presale_text text-white"
                               data-animation="fadeInUp"
                               data-animation-delay="1.3s">Token Donating is <mark className="gradient_box"> live</mark></h5>

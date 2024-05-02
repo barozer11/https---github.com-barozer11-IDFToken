@@ -16,8 +16,8 @@
 ---------------------------------------------------*/
 
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
-    .banner_text h1,
-    .banner_text_s2 h1 {
+    .banner_text h3,
+    .banner_text_s2 h3 {
         font-size: 2.2rem;
     }
     .pr_box h6 {
