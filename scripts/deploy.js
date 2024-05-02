@@ -17,7 +17,7 @@ async function main(){
 
     // token Sale Contract 
 
-    const _tokenPrice = tokens(1);
+    const _tokenPrice = tokens(0.1);
 
     const TokenSale = await hre.ethers.getContractFactory("TokenSale");
     const tokenSale = await TokenSale.deploy( donatingIDF.address , _tokenPrice);
